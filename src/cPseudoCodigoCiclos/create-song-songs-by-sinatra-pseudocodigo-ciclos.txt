@@ -1,0 +1,23 @@
+Crear10Canciones()
+{
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+	createSong ()
+}
+
+Crear10CancionesConCiclos()
+{
+	Numero_canciones = 0
+	while(tenga menos de 10 canciones)
+	{
+		createSong ()
+		mas 1 al Numero_canciones
+	}
+}
