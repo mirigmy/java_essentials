@@ -1,0 +1,15 @@
+login() 
+{
+	abrir el navegador
+	navegar a songs by sinatra
+	verificar que cargaron todos los elementos
+	click en la liga de login
+	esperar a que cargue la pagina de login
+	verificar que cargaros de usuario, password y boton de login
+	ingresar usuario y password
+	click en login
+	esperar a que cargue la home page
+	verificar mensaje de bienvenida
+	verificar que el link ahora dice 'log out'
+
+}

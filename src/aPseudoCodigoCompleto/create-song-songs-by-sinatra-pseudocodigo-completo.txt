@@ -1,0 +1,14 @@
+createSong ()
+{
+	login()
+	click en la opcion de songs
+	esoerar a que cargue la pagina
+	click en create new song
+	esperar a que cargue los campos titulo, longitud fecha y letra
+	rellenar los campos de titulo, longitud, fecha y letra
+	click en save song
+	esperar a que cargue la cancion creada
+	Verificar mensaje song successfully added
+	Verificar los datos de la cancion
+}
+

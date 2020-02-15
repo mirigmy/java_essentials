@@ -1,40 +1,84 @@
-* Hacer el Pan
-Plantar el trigo
-Cuidar la siembra
-Cosechar el trigo
-Hacer harina
-Añadir agua y levadura
-Hornear el Pan
+HacerElPan ()
+{
+	Plantar el trigo
+	Cuidar la siembra
+	Cosechar el trigo
+	Hacer harina
+	A�adir agua y levadura
+	Hornear el Pan
+}
 
-* Hacer el Jamon
-Criar los cerdos
-Sacrificar los Cerdos
-Hacer jamón
+HacerElJamon ()
+{
+	Criar los cerdos
+	Sacrificar los Cerdos
+	Hacer jamon
+}
 
-* Hacer la crema
-Ordeñar la vaca
-Hacer Crema
+HacerLaCrema ()
+{
+	Orde�ar la vaca
+	Hacer Crema
+}
 
-* Conseguir tomate
-Plantar el tomate
-Cuidar la siembra
-Cosechar el tomate
+ConseguirTomate ()
+{
+	Plantar el tomate
+	Cuidar la siembra
+	Cosechar el tomate
+	Lavar el tomate
+	Desinfectar el tomate
+	Rebanar un tomate
+}
 
-* Conseguir la lechuga
-Plantar la lechuga
-Cuidar la siembra
-Cosechar la lechuga
+ConseguirLaLechuga ()
+{
+	Plantar la lechuga
+	Cuidar la siembra
+	Cosechar la lechuga
+	Lavar la lechuga
+	Desinfectar la lechuga
+	Partir la lechuga
+}
 
-* Preparar el sandwich
-Cortar el pan
-Tomar dos rebanadas
-Encontrar el cuchillo
-Aplicar la crema
-Limpiar el cuchillo
-Lavar lechuga y tomate
-Cortar lechuga y tomate
-Poner una rebanada de jamón
-Poner segundo pan encima
-Encontrar plato
-Poner sándwich en plato
-Comer
+TomarElPan ()
+{
+	HacerElPan ()
+	Tomar el cuchillo
+	Cortar el pan en rebanadas
+	Dejar el cuchillo
+	Tomar dos rebanadas
+}
+
+RebanadasDeJamon ()
+{
+	HacerElJamon()	
+	Rebanar el jamon
+}
+
+PrepararElSandwich ()
+{
+	TomarElPan()
+	Tomar el cuchillo
+	HacerLaCrema()
+	Aplicar la crema
+	Tomar el cuchillo
+	HacerLaCrema()
+	Aplicar la crema
+	Limpiar el cuchillo
+	RebanadasDeJamon ()
+	RebanadasDeJamon ()
+	ConseguirTomate ()
+	ConseguirLaLechuga ()
+	TomarElPan()
+	Tomar el cuchillo
+	HacerLaCrema()
+	Aplicar la crema
+	Tomar el cuchillo
+	HacerLaCrema()
+	Aplicar la crema
+	Limpiar el cuchillo
+	Encontrar un plato
+	Poner el Sandwich en el plato
+	Comer
+}
