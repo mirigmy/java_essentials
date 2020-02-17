@@ -1,0 +1,39 @@
+// EJEMPLO DE IF ELSE
+hacerFinDeSemana()
+tengoDinero = true
+netflix = "inactivo"
+clima = "lluvioso"
+if (clima = soleado)
+{
+	irAlParque()
+}
+else if (netflix = activo)
+{
+	quedarseEnCasa()
+}
+else if (tengoDinero = true)
+{
+	voyAlCine()
+}
+else
+{
+	voyConMejorAmigo()
+}
+
+// Ejemplo de varios IF
+InvitarASalir = true
+netflix = "aburrido"
+cocinar = true
+if(InvitarASalir = true)
+{
+	darLaVueltaenPlaza()
+}
+if (netflix <> aburrido)
+{
+	llamarAUnAmigo ()
+}
+if (cocinar = true)
+{
+	CocinarSpaguetti
+}
+
