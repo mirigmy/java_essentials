@@ -50,7 +50,7 @@ TomarElPan ()
 	Tomar dos rebanadas
 }
 
-RebanadasDeJamon ()
+RebanarDeJamon ()
 {
 	HacerElJamon()	
 	Rebanar el jamon
