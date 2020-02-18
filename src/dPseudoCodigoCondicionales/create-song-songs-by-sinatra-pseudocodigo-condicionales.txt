@@ -1,0 +1,16 @@
+// Cancion existe
+
+if (Cancion no existe){
+	CreateCancion()
+	}
+
+
+//
+
+if (Cancion no existe){
+	CreateCancion()
+	}
+else {
+	editSong()
+	}
+	
