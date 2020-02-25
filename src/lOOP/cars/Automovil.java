@@ -12,6 +12,7 @@ public class Automovil {
 	int numDePuertas;
 	int numDeLlantas;
 	
+	// Los primeros valores de una clase se llaman Constructores
 	Automovil() {
 		marca = "Ford";
 		velocidadActual = 0.0;

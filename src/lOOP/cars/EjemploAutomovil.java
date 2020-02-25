@@ -12,6 +12,11 @@ public class EjemploAutomovil {
 		a2.acelerar();
 		a2.frenar();
 		a2.retroceder();
+		
+		Automovil a3 = new Automovil("Bora", 200.0, "Manual", 5, 4);
+		a3.acelerar();
+		a3.frenar();
+		a3.retroceder();
 	}
 
 }

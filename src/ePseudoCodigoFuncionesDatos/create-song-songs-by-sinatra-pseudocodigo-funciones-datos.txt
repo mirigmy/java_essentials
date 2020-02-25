@@ -1,0 +1,35 @@
+login("usuario", "password")
+	{
+	abrir el navegador
+	navegar a songs by sinatra
+	verificar que cargaron todos los elementos
+	click en la liga de login
+	esperar a que cargue la pagina de login
+	verificar que cargaros de usuario, password y boton de login
+	ingresar usuario y password
+	click en login
+	esperar a que cargue la home page
+	verificar mensaje de bienvenida
+	verificar que el link ahora dice 'log out'
+	}
+
+ createSong("Title", "Length", "Date(mm/dd/yyyy)", "Lyrics")
+ {
+ 	login("usuario", "password")
+	click en la opcion de songs
+	esoerar a que cargue la pagina
+	click en create new song
+	esperar a que cargue los campos titulo, longitud fecha y letra
+	rellenar los campos de titulo, longitud, fecha y letra
+	click en save song
+	esperar a que cargue la cancion creada
+	Verificar mensaje song successfully added
+	Verificar los datos de la cancion
+ }
+ 
+ editSon ()
+ {}
+ 
+ deletedSong()
+ {}
+ 
