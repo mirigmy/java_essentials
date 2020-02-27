@@ -19,9 +19,9 @@ public class Ints {
 	    System.out.print(x + " minus " + y + " is " + (x - y) + "\n"); // te imprime el resultado de la resta de tus numeros de "x" y "y"
 	    System.out.print(x + " times " + y + " is " + (x * y) + "\n"); // te imprime el resultado de la multiplicacion de tus numeros de "x" y "y"
 	    System.out.print(x + " divided by " + y + " is " + (x / y) + "\n"); // te imprime el resultado de la división de tus numeros de "x" y "y"
-	    System.out.print("The reminder of " + x + " over "+ y + " is " + (x % y) + "\n"); // imprime un mensaje donde te da lo que le pusiste en x otro mensaje y luego lo que corresponde a "y"
+	    System.out.print("The remainder of " + x + " over "+ y + " is " + (x % y) + "\n"); // imprime un mensaje donde te da lo que le pusiste en x otro mensaje y luego lo que corresponde a "y"
 	    																				// y luego otro mensaje que te dice is y luego te manda el resultado en porcentaje de tu numero x y tu numero y	
-	}																					// no comprendo esta ultima operacion
+	}																					// esto es una division entera
 }
 
 
