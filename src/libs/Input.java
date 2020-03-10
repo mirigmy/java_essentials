@@ -135,5 +135,35 @@ public class Input {
 	    return n;
 	}
 
-
+	//public static double get_negative_double()
+	//{
+		//double cambioCentavos;
+//	    do
+//	    {
+//	        Input.print("No te sobra cambio, al contrario me debes dinero. Por favor dame el cambio: ");
+//	        cambioCentavos = Input.get_double(); //Esta funcion da el valor que dio el usuario
+//	        if (cambioCentavos <= 0) {
+//	        	System.out.println(cambioCentavos + " Es lo que me debes. Por favor dame el cambio: ");
+//	        }
+//	    }
+//	        
+//	    while (cambioCentavos <= 0);
+//	    return cambioCentavos;
+//	}
+	public static double get_possitive_double()
+	{
+	    double cambioCentavos;
+	    do
+	    {
+	        //Input.print("Gracias");
+	        cambioCentavos = Input.get_double(); //Esta funcion da el valor que dio el usuario
+	        if (cambioCentavos < 0.0) {
+	        	System.out.println(cambioCentavos + " Es negativo");
+	        	System.out.println ("Dame un numero positivo: ");
+	        }
+	    }
+	        
+	    while (cambioCentavos < 0.0);
+	    return cambioCentavos;
+	}
 }
