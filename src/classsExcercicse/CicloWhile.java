@@ -11,7 +11,15 @@ public class CicloWhile {
 			Input.print (contador + " ");
 			contador = contador + 2;
 		}
-
+		
+		String espacio = " ";
+		int contador1 = 2;
+		
+		while (contador1 <= 15) {
+					Input.print (" " + espacio + contador1);
+					contador1 = contador1 + 2;
+					
+				}
 	}
 
 }
